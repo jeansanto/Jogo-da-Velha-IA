@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎮 Jogo da Velha</h1>
+        </header>
+
+        <div class="controls">
+            <div class="control-group">
+                <label for="gameMode">Modo</label>
+                <select id="gameMode" class="select-style">
+                    <option value="ia">🤖 Vs Computador</option>
+                    <option value="multiplayer">👥 2 Jogadores</option>
+                </select>
+            </div>
+
+            <div class="control-group" id="difficultyGroup">
+                <label for="difficultySelect">Dificuldade</label>
+                <select id="difficultySelect" class="select-style">
+                    <option value="facil">😊 Fácil</option>
+                    <option value="medio" selected>🧐 Médio</option>
+                    <option value="dificil">😈 Difícil</option>
+                </select>
+            </div>
+
+            <button id="restartBtn" class="btn btn-primary">
+                🔄 Novo Jogo
+            </button>
+        </div>
+
+        <div class="board" id="board"></div>
+
+        <div class="status" id="status">Sua vez (X)</div>
+
+        <div class="scoreboard">
+            <div class="score-card player1">
+                <span class="score-label">🧑 Jogador 1</span>
+                <span class="score-value" id="player1Score">0</span>
+            </div>
+            <div class="score-card draw">
+                <span class="score-label">🤝 Empates</span>
+                <span class="score-value" id="drawScore">0</span>
+            </div>
+            <div class="score-card player2">
+                <span class="score-label" id="player2Label">🤖 Computador</span>
+                <span class="score-value" id="player2Score">0</span>
+            </div>
+        </div>
+
+        <div class="actions">
+            <button id="resetScoreBtn" class="btn btn-danger">🗑️ Zerar Placar</button>
+        </div>
+    </div>
+
+    <div id="confirmModal" class="modal" style="display:none">
+        <div class="modal-content">
+            <h3>🗑️ Confirmar</h3>
+            <p>Tem certeza que deseja zerar o placar?</p>
+            <p style="font-size: 0.9rem; color: #78909c;">Esta ação não pode ser desfeita.</p>
+            <div class="modal-actions">
+                <button id="confirmYes" class="btn btn-danger">Sim, zerar</button>
+                <button id="confirmNo" class="btn btn-secondary">Cancelar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
