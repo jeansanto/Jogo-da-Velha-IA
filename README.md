@@ -43,4 +43,4 @@ cd jogo-da-velha-ia
 
 Opção 1: Live Server (Recomendado)
 
-<img width="562" height="619" alt="jogodavelha" src="https://github.com/user-attachments/assets/3127b79d-e4a8-4faf-8fd3-5217a24e0d59" />
+<img width="548" height="596" alt="Screenshot_1" src="https://github.com/user-attachments/assets/0cbfc099-7127-481b-9c9c-f4c1a697347b" />
