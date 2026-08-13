@@ -1,3 +1,4 @@
+<img width="562" height="619" alt="jogodavelha" src="https://github.com/user-attachments/assets/3127b79d-e4a8-4faf-8fd3-5217a24e0d59" />
 # 🎮 Jogo da Velha
 
 Um jogo da velha interativo com Inteligência Artificial, desenvolvido com **HTML, CSS e JavaScript puro**. O projeto oferece três níveis de dificuldade e modo multiplayer local.
