@@ -44,4 +44,3 @@ cd jogo-da-velha-ia
 Opção 1: Live Server (Recomendado)
 
 <img width="562" height="619" alt="jogodavelha" src="https://github.com/user-attachments/assets/3127b79d-e4a8-4faf-8fd3-5217a24e0d59" />
-# 🎮 Jogo da Velha
